@@ -50,7 +50,7 @@ body {
     border-radius: 0 0 15px 15px;
     overflow: hidden;
     padding: 1.30em;
-    box-shadow: 0 20px 20px rgba(225, 225, 225, 1);
+    box-shadow: -5px 20px 25px rgb(189, 188, 188);
 }
 
 .content__text {
@@ -77,10 +77,9 @@ body {
 }
 
 .content__secondary-btn {
-    background-color: hsl(245, 75%, 52%);
-    padding: 1em .5em;
+    background-color: hsl(245, 75%, 52%);    padding: 1em .5em;
     border-radius: 10px;
-    box-shadow: -10px 18px 10px rgba(225, 225, 225, 1);
+    box-shadow: -5px 15px 18px rgba(225, 225, 225, 1);
   }
   
   .content__secondary-btn a {
@@ -103,17 +102,50 @@ body {
     color: #000;
   }
 
+  .attribution {
+    margin-top: .75em;
+    font-size: .75rem;
+    text-align: center;
+  }
+
+  .attribution a {
+    text-decoration: none;
+  }
 
 
 
-
-
-
-
-
+/*media query for large screen sizes*/
 @media(min-width: 376px) {
 
     body {
         background-image: url(/images/pattern-background-desktop.svg);
+        background-size: 100%;
+    }
+
+    .mrg-b {
+        margin: 0 0 1.5em 0;
+    }
+
+    .main__card-container {
+        max-width: 500px;
+    }
+
+    .content {
+        padding: 1.5em 2.5em;
+    }
+
+    .content__title {
+        font-size: 1.25rem;
+        margin: .5em 0 1em 0;
+    }
+
+    .content__primary-btn {
+        padding: 1.30em .75em;
+    }
+
+    .svg-p {
+        display: flex;
+        align-items: center;
+        gap: 1em;
     }
 }
