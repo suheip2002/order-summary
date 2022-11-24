@@ -20,15 +20,18 @@ img {
 }
 
 body {
-    background-color: hsl(225, 100%, 94%);
-    background-image: url(/images/pattern-background-mobile.svg);
-    background-repeat: no-repeat;
     font-size: 1rem;
     font-family: 'Red Hat Display', sans-serif;
     min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.bg-img {
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(/images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
 }
 
 .main-card {
@@ -124,7 +127,7 @@ body {
 /*media query for large screen sizes*/
 @media(min-width: 376px) {
 
-    body {
+    .bg-img {
         background-image: url(/images/pattern-background-desktop.svg);
         background-size: 100%;
     }
