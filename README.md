@@ -25,7 +25,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://www.frontendmentor.io/solutions/mobile-first-approach-nBNxUPM8E0)
-- Live Site URL:(https://suheip2002.github.io/Order-summary-component/)
+- Live Site URL:(https://suheip2002.github.io/order-summary/)
 
 ## My process
 
